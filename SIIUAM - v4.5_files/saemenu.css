@@ -1,0 +1,170 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9pt;
+        color: #000000;
+        padding: 0px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+}
+#menu {
+	color: #993333;
+        font-size: 8pt;
+        background-color: #FFFFFF;
+        background-attachment: fixed;
+        background-position: left top;
+        background-repeat: repeat-x;
+        padding-top: 5px;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: #A8CCEA;
+        border-right-color: #A8CCEA;
+        border-bottom-color: #BBD7EE;
+        border-left-color: #BBD7EE;
+}
+#unidad {
+        width:175px;
+        height:40px;
+}
+#identificacion{
+	color: #A8A8A8;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6pt;
+        text-align: right;
+}
+.indicacion {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9pt;
+	font-weight: bold;
+        color: #DE1423;
+}
+#menu li {
+}
+#menu li:active {
+}
+#menu li:hover {
+        background: #FFFFFF url(../img/hover.png) no-repeat;
+ 	Border-bottom: none;
+}
+#menu a {
+	display: block;
+	color: #737240;
+	padding: 5px 3px 5px 7px;
+}
+#menu a:active {
+	color: #DBDABF;
+}
+#menu a:hover {
+	color: #55542F;
+}
+a:link, a:visited {
+	display: block;
+	color: #737240;
+	text-decoration: none;
+}
+a:hover  {
+	display: inline;
+	color: #737240;
+	text-decoration: none;
+}
+ul, li {
+ list-style: none;
+}
+ul {
+ border-top: 1px solid #D9DDB3;
+}
+li {
+ Border-bottom: 1px solid #D9DDB3;
+}
+input {
+        padding:0.15em;
+        width:11em;
+        font:bold 0.95em arial, sans-serif;
+
+	color: #FFFFFF;
+        -moz-border-radius:0.4em;
+        -khtml-border-radius:0.4em;
+        background-color: #6FA8D7;
+        border-top-width: 3px;
+        border-right-width: 3px;
+        border-bottom-width: 3px;
+        border-left-width: 3px;
+        border-top-style: double;
+        border-right-style: double;
+        border-bottom-style: double;
+        border-left-style: double;
+        border-top-color: #BBD7EE;
+        border-right-color: #BBD7EE;
+        border-bottom-color: #BBD7EE;
+        border-left-color: #BBD7EE;
+}
+input:hover, input:focus {
+	color: #FFFFFF;
+        background-color: #6FA8D7;
+        border: 3px solid #1E486A;
+}
+.ir {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        background-image: url(../img/botonc1.png);
+        height: 25px;
+        width: 100px;
+        font-weight: normal;
+        color: #000000;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        background-color: #E4E4E4;
+}
+.ir:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        background-image: url(../img/botonc2.png);
+        height: 25px;
+        width: 100px;
+        font-weight: normal;
+        color: #2828CA;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        background-color: #E4E4E4;
+}
+.fieldsettitle1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        background-color: #4F76AA;
+        text-align: center;
+        color: #FFFFFF;
+        width: 98%;
+}
+.textonorm {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        background-color: #FFFFFF;
+        text-align: left;
+        color: #000000;
+}
+.textobold {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+	font-weight: bold;
+        background-color: #FFFFFF;
+        text-align: left;
+        color: #000000;
+}
+.textoenfa {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+	font-weight: bold;
+        background-color: #FFFFFF;
+        text-align: left;
+        color: #FF0000;
+}
